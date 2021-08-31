@@ -2,7 +2,7 @@
   "name": "test-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "/dist/main.js",
+  "main": "/dist/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +20,8 @@
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
     "watchify": "^4.0.0"
+  },
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.1.1"
   }
 }
